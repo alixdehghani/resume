@@ -1,0 +1,102 @@
+body {
+  background: #f3f7f9;
+}
+
+.dark-overlay {
+  background-color: #f3f7f9;
+  width: 100%;
+  min-height: 700px;
+}
+
+.navbar-primary {
+  background-color: #e6eff3;
+  bottom: 0px;
+  left: 0px;
+
+  width: 40px;
+  min-height: 100vmax;
+  
+}
+
+.navbar-primary span,i {
+  color: black;
+}
+
+#main-header {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+#aboutme{
+  font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  background-color: #d6eaf3;
+}
+#research  .card{
+  height: 20rem;
+  width: 20rem;
+}
+
+#teaching .card{
+  /* height: 40rem; */
+}
+#publication .table{
+  background-color: #d6eaf3;;
+}
+.navbar-primary-menu,
+.navbar-primary-menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-primary-menu li a {
+  display: block;
+  padding: 15px 0px;
+  text-align: left;
+  /* border-bottom: solid 1px #444; */
+  color: #ccc;
+}
+
+.fa {
+  padding: 0px 10px;
+}
+
+
+
+@media (min-width:576px) {
+
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width:768px) {
+  .navbar-primary {
+    width: 150px;
+  }
+}
+
+/* Large devices (desktops) */
+
+@media (min-width:992px) {}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width:1200px) {}
+
+/* The given screen size or smaller */
+
+/* Extra small devices (portrait phones)*/
+
+@media (max-width:575px) {
+
+}
+
+/* Small devices (landscape phones)*/
+
+@media (max-width:767px) {}
+
+/* Medium devices (tablets)*/
+
+@media (max-width:991px) {}
+
+/* Large devices (desktops)*/
+
+@media (max-width:1199px) {}
